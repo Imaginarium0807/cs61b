@@ -1,6 +1,5 @@
 public class DrawTriangle {
     public static void drawTriangle(int N){
-
         int col = 0;
         int row = 0;
         while (row < N) {
