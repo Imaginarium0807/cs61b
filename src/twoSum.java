@@ -13,7 +13,7 @@ public class twoSum {
     }
     public static void main(String[] args) {
         int[] n1 = new int[]{2, 7, 11, 15};
-        int n2 = 9;
+        int n2 = 49;
         System.out.println(twoSum(n1, n2));
     }
 }
