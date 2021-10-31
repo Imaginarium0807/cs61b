@@ -17,14 +17,21 @@ public class CorePractice {
         }
     }
 
+    public static void WatchMe(String x){
+        System.out.println(x);
+    }
+
     public static void main(String[] args){
         // first function
         int x = 0;
         WhileLoop(x);
         // second function
-        CorePractice myObj = new CorePractice();
         int y = 6;
         LoopDog(y);
+        // 3nd function
+        String a = "there is a duck";
+        WatchMe(a);
+
     }
 
 }
