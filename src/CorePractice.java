@@ -19,11 +19,12 @@ public class CorePractice {
 
     public static void main(String[] args){
         // first function
-        //int x = 0;
-        //WhileLoop(x);
+        int x = 0;
+        WhileLoop(x);
         // second function
-        int x = 6;
-        LoopDog(x);
+        CorePractice myObj = new CorePractice();
+        int y = 6;
+        LoopDog(y);
     }
 
 }
