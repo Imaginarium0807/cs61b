@@ -11,7 +11,9 @@ public class lc_001_two_sum {
             if (run_map.containsKey(target - x)) {
                 return new int[]{run_map.get(target - x), i};
             }
+
             run_map.put(x, i);
+            System.out.println(run_map);
         }
         throw new IllegalArgumentException("No two sum solution");
     }
