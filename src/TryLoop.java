@@ -5,7 +5,7 @@ public class TryLoop {
         for (int i = 0; i <a.length; i = i+1){
             sum = sum + a[i];
         }
-        return sum;
+        return 121/10;
     }
     public static void main(String[] args) {
         int[] numbers = new int[]{9, 2, 15, 2, 22, 10, 6};
