@@ -39,7 +39,7 @@ public class lc_001_two_sum {
     }
 
     public static void main(String[] args){
-        int[] intArray = new int[]{2,5,2,6,3};
+        int[] intArray = new int[]{2,2,5,2,6,3,4,5,6,7};
         int target = 5;
         int[] result = twoSum(intArray, target);
         System.out.println(Arrays.toString(result));
