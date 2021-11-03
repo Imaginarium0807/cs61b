@@ -1,20 +1,33 @@
+
+// Java code for stack implementation
+
+import java.io.*;
+import java.util.*;
+
 public class lc_20_Valid_Parentheses {
-    public boolean isValid(String s) {
-        if(num < 0) return  false;
-        int reversed = 0, remainder, original = num;
-        while(num != 0) {
-            remainder = num % 10; // reversed integer is stored in variable
-            reversed = reversed * 10 + remainder; //multiply reversed by 10 then add the remainder so it gets stored at next decimal place.
-            num  /= 10;  //the last digit is removed from num after division by 10.
+    public static boolean isValid(String s) {
+        Stack<Character> stack = new Stack<Character>();
+        HashMap<Character, Character> mappings = new HashMap<Character, Character>();
+        mappings.put('(', ')');
+        mappings.put('{', '}');
+        mappings.put('[', ']');
+        for (int i = 0; i < s.length(); i++)
+        {
+            char ch = s.charAt(i);
+            if (mappings.containsKey(ch))
+            {
+                stack.push(ch);
+            }
+            else if (stack.isEmpty() || mappings.get(stack.pop()) != ch)
+            {
+                return false;
+            }
         }
-        // palindrome if original and reversed are equal
-        return original == reversed;
+        return stack.isEmpty();
     }
-
-
     public static void main(String[] args){
-        int x = 123454321;
-        System.out.println(isPalindrome(x));
+        String x = "{[[}]]";
+        System.out.println(isValid(x));
 
     }
 }
