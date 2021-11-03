@@ -14,12 +14,10 @@ public class lc_20_Valid_Parentheses {
         for (int i = 0; i < s.length(); i++)
         {
             char ch = s.charAt(i);
-            if (mappings.containsKey(ch))
-            {
+            if (mappings.containsKey(ch)) {
                 stack.push(ch);
             }
-            else if (stack.isEmpty() || mappings.get(stack.pop()) != ch)
-            {
+            else if (stack.isEmpty() || mappings.get(stack.pop()) != ch) {
                 return false;
             }
         }
