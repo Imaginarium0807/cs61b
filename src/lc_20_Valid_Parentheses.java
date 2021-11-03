@@ -1,9 +1,6 @@
 
-// Java code for stack implementation
-
 import java.io.*;
 import java.util.*;
-
 public class lc_20_Valid_Parentheses {
     public static boolean isValid(String s) {
         Stack<Character> stack = new Stack<Character>();
