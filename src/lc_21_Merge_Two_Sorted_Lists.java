@@ -33,7 +33,9 @@ public class lc_21_Merge_Two_Sorted_Lists {
     public static void main(String[] args){
         ListNode l1 = new ListNode(1,2,4);
         ListNode l2 = new ListNode(1,3,4);
-        System.out.println(list.mergeTwoLists(l1,l2));
+        ListNode result = mergeTwoLists(l1,l2);
+        for ()
+        System.out.println(result.toString());
 
     }
 }
