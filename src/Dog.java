@@ -18,6 +18,5 @@ public class Dog {
         int weightInPounds = 12;
         System.out.println(Dog(weightInPounds));
         System.out.println(makeNoise(weightInPounds));
-
     }
 }
