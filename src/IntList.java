@@ -19,6 +19,14 @@ public class IntList {
         return 1 + this.rest.size();
 
     }
+
+    /** Returns the ith item of this IntList.*/
+    public int get(int i){
+        if (i == 0) {
+            return first;
+        }
+        return rest.get(i -1);
+    }
     public static void main(String[] args) {
         IntList L = new IntList(15, null);
 
@@ -28,6 +36,7 @@ public class IntList {
         //System.out.println(L.toString());
         //Stream.of(L.toString()).forEach(System.out::println);
         System.out.println(L.size());
+        System.out.println(L.get(1));
 
     }
 
