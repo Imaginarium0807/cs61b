@@ -36,7 +36,7 @@ public class IntList {
         //System.out.println(L.toString());
         //Stream.of(L.toString()).forEach(System.out::println);
         System.out.println(L.size());
-        System.out.println(L.get(1));
+        System.out.println(L.first);
 
     }
 
