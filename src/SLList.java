@@ -6,7 +6,6 @@ public class SLList {
         first = new IntNode(x,null);
     }
 
-
     /** Add x to the front of the list. */
     public void addFirst(int x) {
         first = new IntNode(x, first);
@@ -26,7 +25,6 @@ public class SLList {
         }
         p.next = new IntNode(x, null);
     }
-
     public static void main(String[] args) {
         /* Creates a list of one integer, namely 10 */
         SLList L = new SLList(10);
