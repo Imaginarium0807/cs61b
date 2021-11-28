@@ -9,7 +9,7 @@ public class IntList2 {
     public IntList rest_is_list;
 
     public IntList2() {
-        int x = 5;
+
     }
 
     public static void main(String[] args) {
