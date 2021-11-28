@@ -6,4 +6,8 @@ public class IntNode {
         item = i;
         next = n;
     }
+
+    public static void main(String[] args) {
+
+    }
 }
