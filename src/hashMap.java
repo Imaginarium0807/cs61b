@@ -8,11 +8,14 @@ public class hashMap {
         capitalCities.put("Germany", "Berlin");
         capitalCities.put("Norway", "Oslo");
         capitalCities.put("USA", "Washington DC");
-        System.out.println(capitalCities.get("Oslo"));
+        System.out.println(capitalCities.get("USA"));
 
-        HashMap myHashMap = new HashMap();
+        for (Map.Entry<String, String> pair: capitalCities.entrySet()) {
+            System.out.format("key: %s, value: %s%n", pair.getKey(), pair.getValue());
+        }
+
+        HashMap<Integer, Integer> myHashMap = new HashMap();
         myHashMap.put(1, 1); // The map is now [[1,1]]
-        System.out.println( myHashMap);
         myHashMap.put(2, 2); // The map is now [[1,1], [2,2]]
         myHashMap.get(1);    // return 1, The map is now [[1,1], [2,2]]
         myHashMap.get(3);    // return -1 (i.e., not found), The map is now [[1,1], [2,2]]
@@ -21,8 +24,10 @@ public class hashMap {
         myHashMap.remove(2); // remove the mapping for 2, The map is now [[1,1]]
         myHashMap.get(2);    // return -1 (i.e., not found), The map is now [[1,1]]
 
+        for (Map.Entry<Integer, Integer> pair2:  myHashMap.entrySet()) {
+            System.out.format("key: %d, value: %d%n", pair2.getKey(), pair2.getValue());
+        }
 
-        System.out.println("are in the hash map.");
     }
 
 }
