@@ -11,7 +11,7 @@ class MyClass2{
         run_stack.push("third");
         System.out.println(run_stack);
 
-        run_stack.pop();
+        System.out.println(run_stack.pop());
         System.out.println(run_stack);
         run_stack.pop();
         System.out.println(run_stack);
