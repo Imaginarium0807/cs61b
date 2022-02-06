@@ -9,6 +9,6 @@ public class stack_practice2 {
 
         Iterator<String> it = myStack.iterator();
 
-  
+
     }
 }
