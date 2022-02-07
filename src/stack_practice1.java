@@ -11,7 +11,7 @@ public class stack_practice1 {
         STACK.push("Geeks");
         STACK.push("For");
         STACK.push("Geeks");
-
+        STACK.add("fuckkkk");
         // Displaying the Stack
         System.out.println("Initial Stack: " + STACK);
 
