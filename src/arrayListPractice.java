@@ -7,9 +7,18 @@ public class arrayListPractice {
         //using an Array
         String[] fruits = new String[3]; // make a 3 element array
         fruits[0]="apple";
-        fruits[1]="banana";
-        fruits[2]="orange";
+        fruits[2]="banana";
+
         System.out.println(fruits[1]); // output the second element
+
+        //using an Array for integer
+
+        int[] test = new int[3]; // make a 3 element array
+        test[0]=3;
+        test[2]=4;
+
+        System.out.println(test[1]); // output the second element
+
 
         //using a List
         ArrayList<String> fruitsList = new ArrayList<String>();
