@@ -6,7 +6,8 @@ public class stack_practice2 {
         myStack.push("I am in the middle.");
         myStack.push("I am at the top.");
 
-        Iterator<String> it = myStack.iterator();
+        Deque<Integer> myStack2 = new ArrayDeque<>();
+        System.out.println( myStack2);
 
     }
 }

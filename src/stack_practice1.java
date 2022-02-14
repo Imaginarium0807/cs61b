@@ -28,5 +28,8 @@ public class stack_practice1 {
         STACK.pop();
         System.out.println("after pop: " + STACK);
 
+        // peek
+        STACK.peek();
+        System.out.println("get the peek: " + STACK.peek());
     }
 }
