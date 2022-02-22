@@ -1,5 +1,5 @@
 import java.util.*; //importing the stack class
-class MyClass2{
+class try_stack2{
     public static void main (String[] args)
     {
         // Creating a Stack
@@ -13,9 +13,7 @@ class MyClass2{
 
         System.out.println(run_stack.pop());
         System.out.println(run_stack);
-        run_stack.pop();
-        System.out.println(run_stack);
-        run_stack.pop();
+        System.out.println(run_stack.pop());
         System.out.println(run_stack);
     }
 }

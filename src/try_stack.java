@@ -1,5 +1,5 @@
 import java.util.*; //importing the stack class
-class MyClass{
+class try_stack{
     public static void main (String[] args)
     {
         // Creating a Stack
