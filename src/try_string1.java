@@ -12,13 +12,22 @@ public class try_string1 {
 
         // print numeric value according to index of a string
         String num1 = "1314521";
-        // 
+        //
         int s = num1.charAt(5) - '0';
         System.out.println(s);
         //
         char b = num1.charAt(5);
         int c = b;
         System.out.println(c);
+
+        // test math
+        int e = 21/10;
+        int f = 21%10;
+        System.out.println(e);
+        System.out.println(f);
+
+
+        
 
     }
 }
